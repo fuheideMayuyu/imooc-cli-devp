@@ -1,6 +1,6 @@
 {
   "name": "@imooc-cli-devp/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "imooc-cli-devp core",
   "author": "fuheideMayuyu <xiaguangding@163.com>",
   "homepage": "",
@@ -23,7 +23,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@imooc-cli-devp/utils": "^1.0.1"
+    "@imooc-cli-devp/utils": "^1.0.2"
   },
   "gitHead": "feb9f0dbc2ba0a3be671a2155b2a8062823ed859"
 }
