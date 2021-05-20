@@ -1,6 +1,6 @@
 {
   "name": "@imooc-cli-devp/utils",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "fuheideMayuyu <xiaguangding@163.com>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "feb9f0dbc2ba0a3be671a2155b2a8062823ed859"
+  "gitHead": "2d6ddf3489f6943127fe0a4deee7d3b76059faf6"
 }
