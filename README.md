@@ -1,2 +1,0 @@
-# imooc-cli-devp
-i
