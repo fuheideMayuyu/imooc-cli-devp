@@ -1,6 +1,6 @@
 {
   "name": "@imooc-cli-devp/core",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "imooc-cli-devp core",
   "author": "fuheideMayuyu <xiaguangding@163.com>",
   "homepage": "",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@imooc-cli-devp/get-npm-info": "file:../../utils/get-npm-info",
-    "@imooc-cli-devp/log": "^1.0.8",
+    "@imooc-cli-devp/log": "^1.0.9",
     "@imooc-cli-devp/utils": "^1.0.6",
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
