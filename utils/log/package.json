@@ -1,0 +1,32 @@
+{
+  "name": "@imooc-cli-devp/log",
+  "version": "1.0.6",
+  "description": "imooc-cli-devp log",
+  "author": "fuheideMayuyu <xiaguangding@163.com>",
+  "homepage": "https://github.com/fuheideMayuyu/imooc-cli-devp#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuheideMayuyu/imooc-cli-devp.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/fuheideMayuyu/imooc-cli-devp/issues"
+  },
+  "dependencies": {
+    "npmlog": "^4.1.2"
+  }
+}

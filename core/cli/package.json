@@ -24,7 +24,18 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@imooc-cli-lerna/utils": "file:../../utils/utils"
+    "@imooc-cli-devp/log": "file:../../utils/log",
+    "@imooc-cli-devp/utils": "file:../../utils/utils",
+    "@imooc-cli-devp/get-npm-info": "file:../../utils/get-npm-info",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "home-or-tmp": "^4.0.0",
+    "import-local": "^3.0.2",
+    "minimist": "^1.2.5",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
   },
   "gitHead": "33880cd15fb787b0a5a8255107766fc90a02c424"
 }
