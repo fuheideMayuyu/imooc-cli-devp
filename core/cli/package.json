@@ -25,8 +25,8 @@
   },
   "dependencies": {
     "@imooc-cli-devp/get-npm-info": "file:../../utils/get-npm-info",
-    "@imooc-cli-devp/log": "file:../../utils/log",
-    "@imooc-cli-devp/utils": "file:../../utils/utils",
+    "@imooc-cli-devp/log": "^1.0.7",
+    "@imooc-cli-devp/utils": "^1.0.6",
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
     "home-or-tmp": "^4.0.0",
@@ -37,5 +37,5 @@
     "semver": "^7.3.5",
     "user-home": "^3.0.0"
   },
-  "gitHead": "33880cd15fb787b0a5a8255107766fc90a02c424"
+  "gitHead": "4e495ad06448d58e4d001dcc2891a89a8e759fd3"
 }
