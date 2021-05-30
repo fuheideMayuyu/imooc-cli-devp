@@ -1,8 +1,7 @@
 {
   "name": "imooc-cli-devp",
   "version": "1.0.0",
-  "description": "imooc-cli dev",
-  "main": "index.js",
+  "description": "imooc-cli devp",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
