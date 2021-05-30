@@ -1,6 +1,6 @@
 {
   "name": "@imooc-devp/exec",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "> TODO: description",
   "author": "fuheideMayuyu <xiaguangding@163.com>",
   "homepage": "https://github.com/fuheideMayuyu/imooc-cli-devp#readme",
@@ -21,8 +21,8 @@
     "url": "git+https://github.com/fuheideMayuyu/imooc-cli-devp.git"
   },
   "dependencies": {
-    "@imooc-cli-devp/package": "file:../../models/package",
-    "@imooc-cli-devp/log": "file:../../utils/log"
+    "@imooc-cli-devp/log": "file:../../utils/log",
+    "@imooc-cli-devp/package": "file:../../models/package"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

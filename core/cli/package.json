@@ -1,6 +1,6 @@
 {
   "name": "@imooc-cli-devp/core",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "imooc-cli-devp core",
   "author": "fuheideMayuyu <xiaguangding@163.com>",
   "homepage": "",
@@ -24,11 +24,11 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "@imooc-cli-devp/exec": "file:../exec",
     "@imooc-cli-devp/get-npm-info": "file:../../utils/get-npm-info",
+    "@imooc-cli-devp/init": "file:../../commands/init",
     "@imooc-cli-devp/log": "file:../../utils/log",
     "@imooc-cli-devp/utils": "file:../../utils/utils",
-    "@imooc-cli-devp/init": "file:../../commands/init",
-    "@imooc-cli-devp/exec": "file:../exec",
     "colors": "^1.4.0",
     "commander": "^7.2.0",
     "dotenv": "^10.0.0",
