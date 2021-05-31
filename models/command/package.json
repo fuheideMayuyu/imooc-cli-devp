@@ -1,5 +1,5 @@
 {
-  "name": "@imooc-devp/exec",
+  "name": "@imooc-cli-devp/command",
   "version": "1.0.14",
   "description": "> TODO: description",
   "author": "fuheideMayuyu <xiaguangding@163.com>",
@@ -20,15 +20,15 @@
     "type": "git",
     "url": "git+https://github.com/fuheideMayuyu/imooc-cli-devp.git"
   },
-  "dependencies": {
-    "@imooc-cli-devp/log": "file:../../utils/log",
-    "@imooc-cli-devp/package": "file:../../models/package"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/fuheideMayuyu/imooc-cli-devp/issues"
   },
-  "gitHead": "ed2071ef26d21a484d12cf2143b0ee06d72ab123"
+  "dependencies": {
+    "@imooc-cli-devp/log": "file:../../utils/log",
+    "colors": "^1.4.0",
+    "semver": "^7.3.5"
+  }
 }

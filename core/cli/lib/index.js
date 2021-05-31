@@ -7,7 +7,6 @@ const userHome = require('user-home');
 const semver = require('semver')
 const colors = require('colors')
 const log = require('@imooc-cli-devp/log')
-const init = require('@imooc-cli-devp/init')
 const exec = require('@imooc-cli-devp/exec')
 
 const constant = require('./const');
@@ -74,7 +73,6 @@ function registerCommand(){
 
 async function prepare(){
   checkPkgVersion()
-  checkNodeVersion()
   checkRoot()
   checkUserHome()
   checkEnv()
@@ -133,14 +131,7 @@ function checkRoot(){
   const rootCheck = require('root-check')
   rootCheck()
 }
-//检测NODE版本号
-function checkNodeVersion(){
-  const currentVersion = process.version
-  const lowestVersion = constant.LOWEST_NODE_VERSION
-  if(!semver.gte(currentVersion, lowestVersion)){
-    throw new Error(colors.red(`imooc-cli 需要安装 v${lowestVersion} 以上版本的 Node.js`))
-  }
-}
+
 // 检测版本号
 function checkPkgVersion(){
   log.info('cli', pkg.version)

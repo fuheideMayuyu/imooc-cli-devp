@@ -25,10 +25,10 @@
   },
   "dependencies": {
     "@imooc-cli-devp/exec": "file:../exec",
-    "@imooc-cli-devp/get-npm-info": "file:../../utils/get-npm-info",
     "@imooc-cli-devp/init": "file:../../commands/init",
-    "@imooc-cli-devp/log": "^1.0.10",
-    "@imooc-cli-devp/utils": "^1.0.14",
+    "@imooc-cli-devp/get-npm-info": "file:../../utils/get-npm-info",
+    "@imooc-cli-devp/log": "file:../../utils/log",
+    "@imooc-cli-devp/utils": "file:../../utils/utils",
     "colors": "^1.4.0",
     "commander": "^7.2.0",
     "dotenv": "^10.0.0",
@@ -39,5 +39,5 @@
     "semver": "^7.3.5",
     "user-home": "^3.0.0"
   },
-  "gitHead": "bb401448d3827425e718ae0ba6dddf66dcf3bf39"
+  "gitHead": "ed2071ef26d21a484d12cf2143b0ee06d72ab123"
 }

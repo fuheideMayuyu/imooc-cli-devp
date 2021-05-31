@@ -20,11 +20,17 @@
     "type": "git",
     "url": "git+https://github.com/fuheideMayuyu/imooc-cli-devp.git"
   },
+  "dependencies": {
+    "@imooc-cli-devp/conmand": "file:../../models/command",
+    "@imooc-cli-devp/log": "file:../../utils/log",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/fuheideMayuyu/imooc-cli-devp/issues"
   },
-  "gitHead": "bb401448d3827425e718ae0ba6dddf66dcf3bf39"
+  "gitHead": "ed2071ef26d21a484d12cf2143b0ee06d72ab123"
 }
