@@ -2,6 +2,7 @@
 
 const path = require('path')
 
+// 格式化路径
 function formatPath(p) {
   if(p && typeof p === 'string'){
     const sep = path.sep

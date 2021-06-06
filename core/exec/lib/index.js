@@ -1,9 +1,10 @@
 'use strict';
 
 const path = require('path')
-const cp = require('child_process')
+
 const Package = require("@imooc-cli-devp/package")
 const log = require('@imooc-cli-devp/log')
+const { exec: spawn } = require('@imooc-cli-devp/utils')
 
 const SETTINGS = {
   init: '@imooc-cli/init'
@@ -46,11 +47,11 @@ async function exec() {
       packageVersion
     })
   }
-  console.log( await pkg.exists());
   const rootFile =  pkg.getRootFilePath()
   if(rootFile){
     try{
       const args = Array.from(arguments)
+      
       const cmd = args[args.length - 1]
       const o = Object.create(null)
       Object.keys(cmd).forEach(key => {
@@ -78,15 +79,6 @@ async function exec() {
       log.error(e.message);
     }
   }
-}
-
-function spawn(command, args, options){
-  const win32 = process.platform === 'win32'
-
-  const cmd = win32 ? 'cmd' : command
-  const cmdArgs = win32 ? ['/c'].concat(command, args) : args
-
-  return cp.spawn(command, args, options || {})
 }
 
 module.exports = exec;

@@ -33,7 +33,7 @@ class Command {
   }
 
   init(){
-    console.log('initzzz');
+    console.log('执行init');
   }
 
   // 初始化参数
@@ -51,7 +51,7 @@ class Command {
     }
   }
   exec(){
-    console.log('execzzz');
+    console.log('执行exec');
   }
 }
 
